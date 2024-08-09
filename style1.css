@@ -1,0 +1,16 @@
+#circle {
+  width: 150px;
+  height: 150px;
+  margin: 50px auto;
+  shape-outside: circle();
+  clip-path: circle();
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}

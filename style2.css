@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "font1";
+  src: url(Mona-Sans.ttf);
+}
+body {
+  background-color: black;
+  font-family: "font1";
+}
+#title1 {
+  margin: 20px;
+  font-size: 23px;
+  color: gray;
+}
+#badge {
+  margin-left: 20px;
+  margin-bottom: 120px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 250%;
+}
+p {
+  color: gray;
+}
+#corner1 {
+  margin: 20px;
+  border-radius: 15px;
+  border: 4px groove rgb(98, 96, 96);
+  width: 1200px;
+  height: 700px;
+  padding: 10px;
+}
+#corner2 {
+  display: block;
+  margin: 250px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 4px groove rgb(98, 96, 96);
+  border-radius: 10px;
+  width: 200px;
+  height: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+#corner3 {
+  margin-left: 530px;
+  padding: 20px;
+  border-radius: 80px;
+  background-color: aliceblue;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+hr.new1 {
+  border: 1px solid rgb(98, 96, 96);
+  margin-left: 1%;
+  margin-right: 45%;
+}
+.font1 {
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(98, 96, 96);
+}
+/* 
+dashed : viền đứt
+solid : viền liền
+dotted: chấm tròn
+double : viền đôi
+grooved: viền nổi */
